@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ---- HERO TYPEWRITER ---- */
   const twText = document.getElementById('twText');
   if (twText) {
-    const words = ['Afinación', 'Frenos', 'Inyectores', 'Descarbonización', 'Cuerpo de aceleración'];
+    const words = ['Afinación', 'Frenos', 'Inyectores', 'Descarbonización', 'Cuerpo de aceleración', 'Suspensión', 'Sistema de enfriamiento'];
     let wi = 0, ci = 0, deleting = false;
     const tick = () => {
       const word = words[wi];
